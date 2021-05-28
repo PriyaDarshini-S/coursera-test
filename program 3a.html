@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<title>Program 3a</title>
+</head>
+<script type="text/javascript">
+<!--
+var n = prompt("Enter a string: ","");
+flag=0;
+for(i=0;i<n.length && flag!=1 ;i++)
+{
+switch(n[i])
+{
+case 'a':
+case 'e':
+case 'i':
+case 'o':
+case 'u': alert("The left most vowel is present in the position: " +(i+1));
+ flag = 1;
+ break;
+default : break;
+}
+}
+if(!flag)
+alert("No Vowels found.");
+Page 9
+-->
+</script>
+<body>
+</body>
+</html>
